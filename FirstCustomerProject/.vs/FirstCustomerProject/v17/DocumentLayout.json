@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\dto\\registerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\dto\\registerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\context\\accountsevices\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\context\\accountsevices\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\firstcustomerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\firstcustomerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|c:\\users\\user\\source\\repos\\firstcustomerproject\\firstcustomerproject\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E248379E-DD9B-4BFD-9531-54CA81F42854}|FirstCustomerProject\\FirstCustomerProject.csproj|solutionrelative:firstcustomerproject\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T23:39:39.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Program.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Program.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T22:32:33.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Services\\AccountService.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T22:34:33.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Interface\\IAccountService.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Interface\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Interface\\IAccountService.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Interface\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T22:28:02.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Context\\AccountSevices\\AccountServices.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Context\\AccountSevices\\AccountServices.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Context\\AccountSevices\\AccountServices.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Context\\AccountSevices\\AccountServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T22:27:10.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FirstCustomerProject\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T08:54:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\DTO\\RegisterDTOs.cs",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\DTO\\RegisterDTOs.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\DTO\\RegisterDTOs.cs",
+              "RelativeToolTip": "FirstCustomerProject\\DTO\\RegisterDTOs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T22:20:21.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FirstCustomerProject.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\FirstCustomerProject.csproj",
+              "RelativeDocumentMoniker": "FirstCustomerProject\\FirstCustomerProject.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FirstCustomerProject\\FirstCustomerProject\\FirstCustomerProject.csproj",
+              "RelativeToolTip": "FirstCustomerProject\\FirstCustomerProject.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T07:36:23.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
