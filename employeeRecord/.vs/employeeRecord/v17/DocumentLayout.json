@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\employeeRecord\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\source\\repos\\employeerecord\\employeerecord\\employeerecord.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\employeerecord.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "employeeRecord\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAuwC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:49:43.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Program.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Program.cs",
+              "RelativeToolTip": "employeeRecord\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:38:14.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
+              "RelativeToolTip": "employeeRecord\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:02:39.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "RelativeToolTip": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:57:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Interface\\IAccountService.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Interface\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Interface\\IAccountService.cs",
+              "RelativeToolTip": "employeeRecord\\Interface\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:04:09.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "employeeRecord",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+              "RelativeDocumentMoniker": "employeeRecord\\employeeRecord.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+              "RelativeToolTip": "employeeRecord\\employeeRecord.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T18:34:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
+              "RelativeToolTip": "employeeRecord\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T12:43:31.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
