@@ -1,7 +1,10 @@
-﻿namespace employeeRecord.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace employeeRecord.Models
 {                                                                   //Replicates what is saved into the data base.contains Some data not visible to the User
     public class Employee
-    {                                     
+    {
+        [Key]
         public string EmployeeId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

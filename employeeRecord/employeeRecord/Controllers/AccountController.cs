@@ -2,6 +2,7 @@
 using employeeRecord.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace employeeRecord.Controllers
 {
@@ -21,17 +22,27 @@ namespace employeeRecord.Controllers
         {
             var response = await _accountService.CreateAccountAsync(payload);  //access the create Account Method, using await because the method is Async.
 
-            return Ok(response);
+            if (response.StatusCode == (int)HttpStatusCode.OK)
+            {
+                return StatusCode(response.StatusCode, response);  //returns the status code if the Gatway is Ok or successful
+            }
+
+            return StatusCode(response.StatusCode, response);
 
 
         }
 
         [HttpGet("GetAllRecords")]  //Creates the Get Record End point
         public async Task<IActionResult> GetAllRecords()
+
         {
             var response = await _accountService.GetAllRecords();  //Access the Get record Method
+            if (response.StatusCode == (int)HttpStatusCode.OK)
+            {
+                return StatusCode(response.StatusCode, response);  //returns the status code if the Gatway is Ok or successful
+            }
 
-            return Ok(response);
+            return StatusCode(response.StatusCode, response);  // returns the Status code if the Gatteway is Bad request, Internal server error, conflict etc ie if the Gateway is not Ok, pass what ever that is the status code.
 
 
         }

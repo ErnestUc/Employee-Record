@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj": {}
+    "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj": {
+    "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
         "projectName": "employeeRecord",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+        "projectPath": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\employeeRecord\\employeeRecord\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"

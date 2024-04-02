@@ -1,67 +1,37 @@
-﻿using employeeRecord.DTOs;
+﻿using employeeRecord.Context;
+using employeeRecord.DTOs;
 using employeeRecord.Interface;
 using employeeRecord.Models;
+using employeeRecord.Responsess;
+using Microsoft.EntityFrameworkCore;
+using System.Net;
 //using System.Linq.Expressions;
 
 namespace employeeRecord.Services                    
 {
     public class AccountService : IAccountService      //The main class that interacts with the data base Where you implement the Interface
-    {
-        private static List<Employee> employees = new List<Employee>   //Populate data from the Model(Account) replicated database where data will be fetched from. Mimicking how the data base works.
-         {
-            new Employee{
-                         EmployeeId = Guid.NewGuid().ToString(),//gives each of the record a Unique ID
-                        FirstName = "Ernest",
-                        LastName = "Uchenna",
-                        Email = "Ernestazbuike482@gamil.com",
-                        Password = 1234,
-                        PhoneNumber = "08101540593",
-                        Address = "Ogba Ikeja",
-                        CreatedAt= DateTime.Now,
-                        LastModifiedAt = DateTime.Now,
-                        IsActive = true
-            },
-             new Employee{
-                        EmployeeId = Guid.NewGuid().ToString(),
-                        FirstName = "Emma",
-                        LastName = "Nelson",
-                        Email = "NelsonAmaechi@gamil.com",
-                        Password = 4321,
-                        PhoneNumber = "0811234242",
-                        Address = "Abuja",
-                        CreatedAt= DateTime.Now,
-                        LastModifiedAt = DateTime.Now,
-                        IsActive = true
-            },
-             new Employee{
-                        EmployeeId= Guid.NewGuid().ToString(), 
-                        FirstName = "Chisom",
-                        LastName = "Azubuike",
-                        Email = "BestGuy@gamil.com",
-                        Password = 4321,
-                        PhoneNumber = "0832434242",
-                        Address = "Portharcourt",
-                        CreatedAt= DateTime.Now,
-                        LastModifiedAt = DateTime.Now,
-                        IsActive = true
-            },
-         };
-    public AccountService()
+    {                                                         //Now we fetch data from the data base and not from the static data
+        private readonly AppdataBaseContext _appdataBaseContext;                                                  //injest Dbcontext into account service
+        
+    public AccountService(AppdataBaseContext  appdataBaseContext)
         {
-            
+            _appdataBaseContext = appdataBaseContext; 
         }
 
-        public async Task<dynamic> CreateAccountAsync(CreateAccountDTO payload)  //implemented interface for Post record
+        public async Task<ServiceResponse<Employee>> CreateAccountAsync(CreateAccountDTO payload)  //implemented interface for Post record
         {
-            var serviceResponse = new Employee();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
+            var serviceResponse = new ServiceResponse<Employee>();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
             
             try
             {                               //To add validation to the record to avoid recreating an already existing account or record using the email as the Unique ID
-             var checkRecordExist = employees.Where(e => e.Email == payload.Email).FirstOrDefault();
+             var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.Email == payload.Email).FirstOrDefaultAsync();
 
-            if (checkRecordExist != null)
+            if (checkRecordExist != null)  //checks if the record is not empty ie record exist.
             {
-                serviceResponse = new Employee { };
+                serviceResponse.Data = new Employee { };
+                    serviceResponse.Message = "Employee Record Already Exist";
+                    serviceResponse.StatusCode = (int)HttpStatusCode.BadRequest;
+                    serviceResponse.Success = false; 
 
                 return serviceResponse;
             }
@@ -80,9 +50,13 @@ namespace employeeRecord.Services
                         LastModifiedAt = DateTime.Now,
                         IsActive = true
                     };
-                    employees.Add(newRecord);  //since we're not fetching but posting, use .Add and parse the newRecord Variable
+                    _appdataBaseContext.Employees.Add(newRecord);  //since we're not fetching but posting, use .Add and parse the newRecord Variable
+                    _appdataBaseContext.SaveChanges();
 
-                    serviceResponse = newRecord;  //returns the newRecord back to the User
+                    serviceResponse.Data = newRecord;  //returns the newRecord back to the User
+                    serviceResponse.StatusCode = (int)HttpStatusCode.Created;
+                    serviceResponse.Message = "Record Successfully Created";
+                    serviceResponse.Success = true; 
                 }
             }
             catch (Exception)
@@ -92,22 +66,29 @@ namespace employeeRecord.Services
             }
             return serviceResponse;
         }
-            public async Task<dynamic> GetAllRecords()  //implemented Interface for Get Record
-              {
-            var serviceResponse = new List<Employee>();    //declaring Return Type
+            public async Task<ServiceResponse<dynamic>> GetAllRecords()  //implemented Interface for Get Record   ServiceResponse is specified to accept the generic type and pass in the list of employee
+              {                        
+            var serviceResponse = new ServiceResponse <dynamic>();    //declaring Return Type, now wrapped into ServiceResponse class
 
             try
             {   
 
-                var result = employees.ToList();   //Declaring record to be Fetched
+                var result = _appdataBaseContext.Employees.ToList();   //Declaring record to be Fetched
 
                 if (result.Count>0)     //To Validate the Data or record
                 {
-                    serviceResponse = result;
+                    serviceResponse.Data = result;
+
+                    serviceResponse.StatusCode = 200;  //or use StatusCode = (int)HttpStatusCode.ok; if you don't know the success status code
+                    serviceResponse.Message = "Record found";
+                    serviceResponse.Success = true; 
+                    return serviceResponse;
                 }
                 else
                 {
-                    serviceResponse = new List<Employee>();  //if there is no record, Return Empty of the Account
+                    serviceResponse.Data = new List<Employee>();  //if there is no record, Return Empty of the Account
+                    serviceResponse.Message = "Record Not Found";
+                    serviceResponse.StatusCode = (int)HttpStatusCode.NotFound;
                 }
                 
             }
@@ -119,22 +100,29 @@ namespace employeeRecord.Services
             return serviceResponse;
         }
 
-        public async Task<dynamic> GetRecordById(string EmployeeId)
+        public async Task<ServiceResponse<Employee>> GetRecordById(string EmployeeId)
         {
-            var serviceResponse = new Employee();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
+            var serviceResponse = new ServiceResponse <Employee>();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
 
             try
             {
-                var checkRecordExist = employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefault();  //To get record using the EmployeeId
+                var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
                 if (checkRecordExist == null)  //Check if record does not exist
                 {
-                    serviceResponse = new Employee { };
+                    serviceResponse.Data = new Employee { };
+                    serviceResponse.StatusCode = (int)HttpStatusCode.NotFound;
+                    serviceResponse.Message = "Employee Reocrd Does Not Exist";
+                    serviceResponse.Success = false;
+
 
                     return serviceResponse; //stops the code from runnning further and returns an output that indicates that record does not exist
                 }
 
                 
-                serviceResponse = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.Data = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.StatusCode = (int)HttpStatusCode.OK;
+                serviceResponse.Message = "Employee Record Found";
+                serviceResponse.Success= true;
 
             }
             catch (Exception)
@@ -145,16 +133,19 @@ namespace employeeRecord.Services
             return serviceResponse;
         }
 
-        public async Task<dynamic> UpdateAccountAsync(CreateAccountDTO payload)
+        public async Task<ServiceResponse<Employee>> UpdateAccountAsync(CreateAccountDTO payload)  //note that in returning dynamic, the type of error the code is likely to return is only determined when the code is run unlike when the return type is specified where the error is seen before the code is run
         {
-            var serviceResponse = new Employee();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
+            var serviceResponse = new ServiceResponse<Employee>();     //declaring the function for the record(collection) to Post or add to the Data base...replica(An in Memory)
 
             try
             {
-               var checkRecordExist = employees.Where(e=>e.Email==payload.Email).FirstOrDefault();  //to check if record already exist
+               var checkRecordExist = await _appdataBaseContext.Employees.Where(e=>e.Email==payload.Email).FirstOrDefaultAsync();  //to check if record already exist
                 if(checkRecordExist == null)  //checks if record does not exist
                 {
-                    serviceResponse = new Employee { };
+                    serviceResponse.Data = new Employee { };
+                    serviceResponse.Message = "Record Does not Exist";
+                    serviceResponse.Success = false;
+                    serviceResponse.StatusCode = (int)HttpStatusCode.MisdirectedRequest;
 
                     return serviceResponse;    //returns an output that indicates that record does not exist
                 }
@@ -163,11 +154,15 @@ namespace employeeRecord.Services
                 checkRecordExist.LastName =    payload.LastName;
                 checkRecordExist.Email =       payload.Email;  
                 checkRecordExist.PhoneNumber = payload.PhoneNumber; 
-                checkRecordExist.Address =     payload.Address;    
+                checkRecordExist.Address =     payload.Address;
 
-                employees.Add(checkRecordExist);  //update records parameter parsed to the add function
+                _appdataBaseContext.Employees.Add(checkRecordExist);  //update records parameter parsed to the add function
+                _appdataBaseContext.SaveChanges();
 
-                serviceResponse = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.Data = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.Message = "Record Update Successful";
+                serviceResponse.Success = true;
+                serviceResponse.StatusCode = 200;
 
             }
             catch (Exception)
@@ -178,23 +173,30 @@ namespace employeeRecord.Services
             return serviceResponse;
         }
        
-        public async Task<dynamic> DeleteRecordById(string EmployeeId)   //Implemented interface for Delete record
+        public async Task<ServiceResponse<Employee>>DeleteRecordById(string EmployeeId)   //Implemented interface for Delete record
         {
-            var serviceResponse = new Employee();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
+            var serviceResponse = new ServiceResponse <Employee>();     //declaring the fucntion for the record(collection) to Post or add to the Data base...replica(An in Memory)
 
             try
             {
-                var checkRecordExist = employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefault();  //To get record using the EmployeeId
+                var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
                 if (checkRecordExist == null)  //check if record does not exist
                 {
-                    serviceResponse = new Employee { };
+                    serviceResponse.Data = new Employee { };
+                    serviceResponse.StatusCode = (int)HttpStatusCode.NotFound;
+                    serviceResponse.Message = "Record Does Not Exist";
+                    serviceResponse.Success = false;
 
                     return serviceResponse;   //returns an output that indicates that record does not exist
                 }
 
-                employees.Remove(checkRecordExist); 
+                _appdataBaseContext.Employees.Remove(checkRecordExist);
+                _appdataBaseContext.SaveChanges();  
 
-                serviceResponse = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.Data = checkRecordExist;  //returns the updated record back to the User
+                serviceResponse.Message = "Record Successfully Deleted";
+                serviceResponse.Success = true;
+                serviceResponse.StatusCode = 200;
 
             }
             catch (Exception)
