@@ -24,7 +24,7 @@ namespace employeeRecord.Services
             
             try
             {                               //To add validation to the record to avoid recreating an already existing account or record using the email as the Unique ID
-             var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.Email == payload.Email).FirstOrDefaultAsync();
+             var checkRecordExist = await _appdataBaseContext.EmployeesR.Where(e => e.Email == payload.Email).FirstOrDefaultAsync();
 
             if (checkRecordExist != null)  //checks if the record is not empty ie record exist.
             {
@@ -43,14 +43,13 @@ namespace employeeRecord.Services
                         FirstName = payload.FirstName,
                         LastName = payload.LastName,
                         Email = payload.Email,
-                        Password = payload.Password,
                         PhoneNumber = payload.PhoneNumber,
                         Address = payload.Address,
                         CreatedAt = DateTime.Now,
                         LastModifiedAt = DateTime.Now,
                         IsActive = true
                     };
-                    _appdataBaseContext.Employees.Add(newRecord);  //since we're not fetching but posting, use .Add and parse the newRecord Variable
+                    _appdataBaseContext.EmployeesR.Add(newRecord);  //since we're not fetching but posting, use .Add and parse the newRecord Variable
                     _appdataBaseContext.SaveChanges();
 
                     serviceResponse.Data = newRecord;  //returns the newRecord back to the User
@@ -73,7 +72,7 @@ namespace employeeRecord.Services
             try
             {   
 
-                var result = _appdataBaseContext.Employees.ToList();   //Declaring record to be Fetched
+                var result = _appdataBaseContext.EmployeesR.ToList();   //Declaring record to be Fetched
 
                 if (result.Count>0)     //To Validate the Data or record
                 {
@@ -106,7 +105,7 @@ namespace employeeRecord.Services
 
             try
             {
-                var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
+                var checkRecordExist = await _appdataBaseContext.EmployeesR.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
                 if (checkRecordExist == null)  //Check if record does not exist
                 {
                     serviceResponse.Data = new Employee { };
@@ -139,7 +138,7 @@ namespace employeeRecord.Services
 
             try
             {
-               var checkRecordExist = await _appdataBaseContext.Employees.Where(e=>e.Email==payload.Email).FirstOrDefaultAsync();  //to check if record already exist
+               var checkRecordExist = await _appdataBaseContext.EmployeesR.Where(e=>e.Email==payload.Email).FirstOrDefaultAsync();  //to check if record already exist
                 if(checkRecordExist == null)  //checks if record does not exist
                 {
                     serviceResponse.Data = new Employee { };
@@ -156,7 +155,7 @@ namespace employeeRecord.Services
                 checkRecordExist.PhoneNumber = payload.PhoneNumber; 
                 checkRecordExist.Address =     payload.Address;
 
-                _appdataBaseContext.Employees.Add(checkRecordExist);  //update records parameter parsed to the add function
+                _appdataBaseContext.EmployeesR.Update(checkRecordExist);  //update records parameter parsed to the add function
                 _appdataBaseContext.SaveChanges();
 
                 serviceResponse.Data = checkRecordExist;  //returns the updated record back to the User
@@ -179,7 +178,7 @@ namespace employeeRecord.Services
 
             try
             {
-                var checkRecordExist = await _appdataBaseContext.Employees.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
+                var checkRecordExist = await _appdataBaseContext.EmployeesR.Where(e => e.EmployeeId == EmployeeId).FirstOrDefaultAsync();  //To get record using the EmployeeId
                 if (checkRecordExist == null)  //check if record does not exist
                 {
                     serviceResponse.Data = new Employee { };
@@ -190,7 +189,7 @@ namespace employeeRecord.Services
                     return serviceResponse;   //returns an output that indicates that record does not exist
                 }
 
-                _appdataBaseContext.Employees.Remove(checkRecordExist);
+                _appdataBaseContext.EmployeesR .Remove(checkRecordExist);
                 _appdataBaseContext.SaveChanges();  
 
                 serviceResponse.Data = checkRecordExist;  //returns the updated record back to the User

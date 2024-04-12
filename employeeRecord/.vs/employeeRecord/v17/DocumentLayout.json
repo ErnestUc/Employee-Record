@@ -3,55 +3,79 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\context\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\context\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240401123348_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:employeeRecord\\Migrations\\20240401123348_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\employeerecord.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\employeerecord.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\responsess\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\responsess\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\migrations\\20240401123348_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\migrations\\20240401123348_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\AppData\\Local\\SourceServer\\61bd4e7d5d7afd5081ac1901c5bb6a3e2e2b3ef012dede1bb026a9b5a1a87c94\\employeeRecord\\employeeRecord\\Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\responsess\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\responsess\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\migrations\\20240410231405_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\migrations\\20240410231405_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\migrations\\appdatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\migrations\\appdatabasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\employeerecord.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\employeerecord.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\employeerecord.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\employeerecord.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|solutionrelative:employeerecord\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\AppData\\Local\\SourceServer\\61bd4e7d5d7afd5081ac1901c5bb6a3e2e2b3ef012dede1bb026a9b5a1a87c94\\employeeRecord\\employeeRecord\\Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5D980F-8E71-4E65-AB02-4D69EF146EBA}|employeeRecord\\employeeRecord.csproj|c:\\users\\user\\employee-record\\employeerecord\\employeerecord\\employeerecord.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -65,154 +89,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppdataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Context\\AppdataBaseContext.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Context\\AppdataBaseContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Context\\AppdataBaseContext.cs",
-              "RelativeToolTip": "employeeRecord\\Context\\AppdataBaseContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T10:35:48.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Program.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Program.cs",
-              "RelativeToolTip": "employeeRecord\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T11:38:14.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.json",
-              "RelativeDocumentMoniker": "employeeRecord\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.json",
-              "RelativeToolTip": "employeeRecord\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-01T10:58:47.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
-              "RelativeToolTip": "employeeRecord\\Services\\AccountService.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAIwJgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T11:02:39.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240401123348_Init.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240401123348_Init.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Migrations\\20240401123348_Init.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240401123348_Init.cs",
-              "RelativeToolTip": "employeeRecord\\Migrations\\20240401123348_Init.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T12:33:49.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
-              "RelativeToolTip": "employeeRecord\\Models\\Employee.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T12:43:31.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "employeeRecord\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T11:49:43.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "employeeRecord\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.Development.json",
-              "RelativeToolTip": "employeeRecord\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-01T12:06:36.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "employeeRecord.http",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.http",
-              "RelativeDocumentMoniker": "employeeRecord\\employeeRecord.http",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.http",
-              "RelativeToolTip": "employeeRecord\\employeeRecord.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-01T12:06:48.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Responsess\\ServiceResponse.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\Responsess\\ServiceResponse.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Responsess\\ServiceResponse.cs",
-              "RelativeToolTip": "employeeRecord\\Responsess\\ServiceResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T14:07:18.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateAccountDTO.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
-              "RelativeDocumentMoniker": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
-              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
-              "RelativeToolTip": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T10:57:51.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Interface\\IAccountService.cs",
               "RelativeDocumentMoniker": "employeeRecord\\Interface\\IAccountService.cs",
@@ -225,7 +106,228 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240401123348_Init.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240401123348_Init.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Migrations\\20240401123348_Init.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240401123348_Init.cs",
+              "RelativeToolTip": "employeeRecord\\Migrations\\20240401123348_Init.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T12:33:49.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Models\\Employee.cs",
+              "RelativeToolTip": "employeeRecord\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T12:43:31.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Responsess\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Responsess\\ServiceResponse.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Responsess\\ServiceResponse.cs",
+              "RelativeToolTip": "employeeRecord\\Responsess\\ServiceResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T14:07:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppdataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Context\\AppdataBaseContext.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Context\\AppdataBaseContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Context\\AppdataBaseContext.cs",
+              "RelativeToolTip": "employeeRecord\\Context\\AppdataBaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:35:48.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
+              "RelativeToolTip": "employeeRecord\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAL4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:02:39.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240410231405_first.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240410231405_first.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Migrations\\20240410231405_first.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\20240410231405_first.cs",
+              "RelativeToolTip": "employeeRecord\\Migrations\\20240410231405_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:14:05.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppdataBaseContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\AppdataBaseContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Migrations\\AppdataBaseContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Migrations\\AppdataBaseContextModelSnapshot.cs",
+              "RelativeToolTip": "employeeRecord\\Migrations\\AppdataBaseContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T15:53:05.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateAccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "RelativeToolTip": "employeeRecord\\DTOs\\CreateAccountDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:57:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "employeeRecord\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:49:43.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "employeeRecord\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Properties\\launchSettings.json",
+              "RelativeToolTip": "employeeRecord\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-10T16:10:04.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "employeeRecord\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.Development.json",
+              "RelativeToolTip": "employeeRecord\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T12:06:36.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.json",
+              "RelativeDocumentMoniker": "employeeRecord\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\appsettings.json",
+              "RelativeToolTip": "employeeRecord\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T10:58:47.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Program.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Program.cs",
+              "RelativeToolTip": "employeeRecord\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:38:14.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "employeeRecord.http",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.http",
+              "RelativeDocumentMoniker": "employeeRecord\\employeeRecord.http",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.http",
+              "RelativeToolTip": "employeeRecord\\employeeRecord.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-01T12:06:48.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "employeeRecord",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+              "RelativeDocumentMoniker": "employeeRecord\\employeeRecord.csproj",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
+              "RelativeToolTip": "employeeRecord\\employeeRecord.csproj",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T15:51:15.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "employeeRecord\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\WeatherForecast.cs",
+              "RelativeToolTip": "employeeRecord\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:13:37.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Dockerfile",
+              "RelativeDocumentMoniker": "employeeRecord\\Dockerfile",
+              "ToolTip": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\Dockerfile",
+              "RelativeToolTip": "employeeRecord\\Dockerfile",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-10T15:55:17.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\AppData\\Local\\SourceServer\\61bd4e7d5d7afd5081ac1901c5bb6a3e2e2b3ef012dede1bb026a9b5a1a87c94\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\61bd4e7d5d7afd5081ac1901c5bb6a3e2e2b3ef012dede1bb026a9b5a1a87c94\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
@@ -233,12 +335,11 @@
               "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\61bd4e7d5d7afd5081ac1901c5bb6a3e2e2b3ef012dede1bb026a9b5a1a87c94\\employeeRecord\\employeeRecord\\Services\\AccountService.cs",
               "ViewState": "AQIAAHMAAAAAAAAAAAAgwIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T08:52:33.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T08:52:33.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "employeeRecord",
               "DocumentMoniker": "C:\\Users\\USER\\Employee-Record\\employeeRecord\\employeeRecord\\employeeRecord.csproj",
               "RelativeDocumentMoniker": "employeeRecord\\employeeRecord.csproj",
